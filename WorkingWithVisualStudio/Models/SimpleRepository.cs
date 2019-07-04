@@ -25,6 +25,8 @@ namespace WorkingWithVisualStudio.Models
             {
                 AddProduct(p);
             }
+
+            products.Add("Błąd", null);
         }
 
         public IEnumerable<Product> Products => products.Values;
