@@ -10,6 +10,7 @@
     <title>Praca z VS</title>
 </head>
 <body>
+    <h3>Produkty</h3>
     <table>
         <thead>
             <tr>
@@ -22,7 +23,7 @@
             {
                 <tr>
                     <td>@p.Name</td>
-                    <td>@p.Price</td>
+                    <td>@($"{p.Price:C2}")</td>
                 </tr>
             }
         </tbody>
